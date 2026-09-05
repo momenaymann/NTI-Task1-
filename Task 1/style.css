@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: #102333;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px 5px;
+}
+
+h1 {
+    color: #b59b48;
+    font-size: 25px;
+}
+.places {
+    background-color: #45649a;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.place {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #304d78;
+}
+
+.place div {
+    padding: 15px 5px;
+}
+
+.place h3 {
+    font-family: monospace;
+    font-size: 10px;
+    margin: 0;
+}
+
+.place p {
+    font-family: monospace;
+    font-size: 9px;
+    margin: 2px 0;
+}
